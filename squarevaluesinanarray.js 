@@ -1,0 +1,11 @@
+function squareTheValuesInAnArray(x) {
+        for(i=0;i<x.length;i++) {
+          x[i] *= x[i];
+        }
+          return x;
+
+}
+
+var x = [1,5,10,-2]
+
+squareTheValuesInAnArray(x);
